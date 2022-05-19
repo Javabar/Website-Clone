@@ -1,8 +1,9 @@
 
+
 h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0.67em 0;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -29,7 +30,6 @@ a {
     line-height: 22px;
     font-weight: 400;
     color: white;
-
 }
 
 a:hover {
@@ -43,11 +43,7 @@ a:hover {
     background-position: 0px 0px, 50% 50%;
     background-size:auto, cover;
     background-repeat: repeat, no-repeat;
-    
-   
 }
-
-
 
 .full-content{
     display:inline;
@@ -79,9 +75,6 @@ a:hover {
     padding: 30px 15px;
 }
 
-.middle {
-
-}
 
 .mid-1 {
     justify-content: center;
@@ -110,10 +103,9 @@ a:hover {
     display: inline-block;
     margin: 10px;
     padding: 10px 30px;
-    border: 0;
     line-height: inherit;
     text-transform: uppercase;
-    background-color: blue; 
+    background-color: #4d8cf5; 
   border: none;
   color: white;
   text-align: center;
@@ -121,11 +113,12 @@ a:hover {
   display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
+  border-radius:  5px;
 }
 
 
 .view button {
-    border: 1px solid blue;
+    border: 1px solid #4d8cf5;
     background-color: transparent;
     color: #fff;
     margin: 10px;
@@ -133,13 +126,14 @@ a:hover {
     text-transform: uppercase;
     line-height: inherit;
     transition-duration: 0.4s;
+    border-radius:  5px;
 }
 
 .download button:hover {
-background-color: grey; 
+background-color: #333; 
 }
 
 .view button:hover{
-    background-color: blue;
+    background-color: #4d8cf5;
     
 }
