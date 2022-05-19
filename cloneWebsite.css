@@ -1,0 +1,145 @@
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Nunito, sans-serif;
+    margin: 0.67em 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 58px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+.flex a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: white;
+
+}
+
+a:hover {
+      color: blue;
+  }
+
+.full {
+    height: 800px;
+    text-align: center;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Images/building.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size:auto, cover;
+    background-repeat: repeat, no-repeat;
+    
+   
+}
+
+
+
+.full-content{
+    display:inline;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 15px;
+    vertical-align: bottom;
+    height: 200px;
+}
+
+.image{
+    position: absolute;
+    padding: 30px 15px;
+  
+}
+
+
+.flex ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    padding: 30px 15px;
+}
+
+.middle {
+
+}
+
+.mid-1 {
+    justify-content: center;
+    color: #fff;
+    font-size: 58px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.mid-2{
+    padding: 0 0 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.mid-3{
+    display: flex;
+    justify-content:center;
+    padding: 15px;
+}
+
+.download button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    border: 0;
+    line-height: inherit;
+    text-transform: uppercase;
+    background-color: blue; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+.view button {
+    border: 1px solid blue;
+    background-color: transparent;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    line-height: inherit;
+    transition-duration: 0.4s;
+}
+
+.download button:hover {
+background-color: grey; 
+}
+
+.view button:hover{
+    background-color: blue;
+    
+}
