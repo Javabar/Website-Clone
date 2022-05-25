@@ -113,3 +113,18 @@ a:hover {
     background-color: #4d8cf5;
     
 }
+
+@media all and (max-width: 1000px){
+    .flex-nav ul li {
+        width: 50%;
+    }
+    .flex-nav .social {
+        width: 25%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .flex-nav ul li {
+        width: 100%;
+    }
+}
